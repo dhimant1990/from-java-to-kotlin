@@ -1,18 +1,20 @@
+![](https://github.com/dhimant1990/from-java-to-kotlin/blob/master/assets/from_java_to_kotlin.png)
+
 # From Java To Kotlin
 
 ## Print the log
  - Java
 
 ```java
-System.out.print("Amit Shekhar");
-System.out.println("Amit Shekhar");
+System.out.print("Dhimant Desai");
+System.out.println("Dhimant Desai");
 ```
 
 -  Kotlin
 
 ```kotlin
-print("Amit Shekhar")
-println("Amit Shekhar")
+print("Dhimant Desai")
+println("Dhimant Desai")
 ```
 
 ---
@@ -20,15 +22,15 @@ println("Amit Shekhar")
 - Java
 
 ```java
-String name = "Amit Shekhar";
-final String name = "Amit Shekhar";
+String name = "Dhimant Desai";
+final String name = "Dhimant Desai";
 ```
 
 - Kotlin
 
 ```kotlin
-var name = "Amit Shekhar"
-val name = "Amit Shekhar"
+var name = "Dhimant Desai"
+val name = "Dhimant Desai"
 ```
 
 ---
@@ -73,16 +75,16 @@ val length = text?.length
 -  Java
 
 ```java
-String firstName = "Amit";
-String lastName = "Shekhar";
+String firstName = "Dhimant";
+String lastName = "Desai";
 String message = "My name is: " + firstName + " " + lastName;
 ```
 
 -  Kotlin
 
 ```kotlin
-val firstName = "Amit"
-val lastName = "Shekhar"
+val firstName = "Dhimant"
+val lastName = "Desai"
 val message = "My name is: $firstName $lastName"
 ```
 
@@ -285,25 +287,25 @@ for ((key, value) in map) { }
 final List<Integer> listOfNumber = Arrays.asList(1, 2, 3, 4);
 
 final Map<Integer, String> keyValue = new HashMap<Integer, String>();
-map.put(1, "Amit");
-map.put(2, "Ali");
-map.put(3, "Mindorks");
+map.put(1, "Dhimant");
+map.put(2, "Desai");
+map.put(3, "Dhims");
 
 // Java 9
 final List<Integer> listOfNumber = List.of(1, 2, 3, 4);
 
-final Map<Integer, String> keyValue = Map.of(1, "Amit",
-                                             2, "Ali",
-                                             3, "Mindorks");
+final Map<Integer, String> keyValue = Map.of(1, "Dhimant",
+                                             2, "Desai",
+                                             3, "Dhims");
 ```
 
 - Kotlin
 
 ```kotlin
 val listOfNumber = listOf(1, 2, 3, 4)
-val keyValue = mapOf(1 to "Amit",
-                     2 to "Ali",
-                     3 to "Mindorks")
+val keyValue = mapOf(1 to "Dhimant",
+                     2 to "Desai",
+                     3 to "Dhims")
 ```
 
 ---
