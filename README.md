@@ -30,7 +30,6 @@ final String name = "Dhimant Desai";
 
 ```kotlin
 var name = "Dhimant Desai"
-val name = "Dhimant Desai"
 ```
 
 ---
